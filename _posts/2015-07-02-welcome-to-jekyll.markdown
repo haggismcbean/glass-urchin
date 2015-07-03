@@ -30,7 +30,7 @@ Javascript is a great way for websites to track you. Incidentally, also a great 
 
 ###Make HTML DuckDuckGo your default search engine
 
-Not as good as Google for most things, however it's [not following your every move](https://duckduckgo.com/privacy). I guess you can trust it to be more general about search terms rather than just trying to be happy - good if you're looking for unbiased results to opinion based searches. 
+Not as good as Google for most things, however it's [not following your every move](https://duckduckgo.com/privacy). 
 
 ###Stop Using GMail and Google Drive
 
