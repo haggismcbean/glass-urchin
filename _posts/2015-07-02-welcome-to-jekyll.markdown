@@ -26,7 +26,7 @@ Javascript is a great way for websites to track you. Incidentally, also a great 
 
 ###Install Ghostery
 
-[Ghostery](https://www.ghostery.com/) is pretty cool I just found out about it the other day. Basically it blocks things like cookies and those 1px images that spy on you. I think it also blocks javascript blocking, but it's nice to have Noscript just to be doubly sure. 
+[Ghostery](https://www.ghostery.com/) is pretty cool I just found out about it the other day. Basically it blocks things like cookies and those 1px images that spy on you. I think it also blocks javascript tracking, but it's nice to have Noscript just to be doubly sure. 
 
 ###Make HTML DuckDuckGo your default search engine
 
