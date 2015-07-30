@@ -31,3 +31,9 @@ Just follow the instructions.
 ###To Lint:
 
 `npm run lint`
+
+###Or add alias to .bashprofile:
+
+`alias lint='npm run lint'`
+
+Remember this will only work in projects where you've installed the linter!
