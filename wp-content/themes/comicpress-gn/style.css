@@ -1,0 +1,897 @@
+/*  
+ 
+Theme Name: ComicPress GN
+Version: 2.5
+
+Theme URI: http://mindfaucet.com/comicpress/
+Description: The Graphic Novel Edition of the customizable theme for publishing comics. <a href="http://mindfaucet.com/comicpress">Visit the ComicPress website.</a>
+
+	Author: Tyler Martin
+	Author URI: http://mindfaucet.com/
+
+The CSS, XHTML and design is released under GPL v3:
+http://www.opensource.org/licenses/gpl-3.0.html
+
+*/
+
+
+
+/* STANDARD HTML TAGS */
+
+body {
+	margin: 0;
+	color: #333;
+	font-size: 12px;
+	font-family: 'Arial', sans-serif;
+	background: #000033 url('background.png') center top repeat-y;
+	}
+
+a {
+	color: #000;
+	text-decoration: underline;
+  	}
+  	
+  	a:hover {
+  		color: #ccccff;
+  		}
+
+	a img {
+		border: none;
+		}
+
+
+		
+small {
+	font-size: 11px;
+	}
+ 
+hr {
+	height: 1px;
+	color: #777;
+	background-color: #777;
+	border: 0px;
+	}
+
+blockquote {
+	margin: 10px;
+	padding: 5px 10px 5px 20px;
+	border-width: 1px 1px 1px 5px;
+	border-style: solid;
+	border-color: #ccccff;
+	}
+
+	blockquote cite {
+		margin: 5px 0 0;
+		display: block;
+		}
+
+cite {
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	font-style: normal;
+	}
+	
+code {
+	padding: 10px;
+	display: block;
+	font-family: 'Courier New', monospace;
+	background: #eee;
+	border: 1px dotted #777;
+	overflow: scroll;
+	}
+
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+	acronym, abbr {
+		border-bottom: 1px dashed #999;
+		}
+
+
+
+/* HEADINGS */
+
+h1, h1 a, h1 a:hover {
+	margin: 0;
+	padding: 0 0 0 5px;
+	color: #003366;
+	font-family: 'Georgia', serif;
+	font-size: 50px;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	letter-spacing: -2px;
+	}
+
+h2, h2 a {
+	margin: 0;
+	color: #111;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: left;
+	text-decoration: none;
+	}
+
+	h2.pagetitle, h2.pagetitle a {
+		margin: 20px 0 0 0;
+		padding: 0 0 5px 0;
+		color: #999;
+		font-family: 'Georgia', serif;
+		font-size: 32px;
+		font-weight: normal;		
+		letter-spacing: -2px;
+		text-align: left;
+		}
+
+h3, h3 a {
+	margin: 30px 10px 0 0;
+	padding: 0;
+	color: #111;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+	clear: both;
+	}
+
+h2 a:hover, h3 a:hover {
+	color: #111;
+	border-bottom: 1px dotted #777;
+	}
+
+
+
+/* THE HEADER */
+
+#header {
+	width: 960px;
+        height: 140px;
+	margin: 0 auto;
+	background: #fff url('banner.gif');
+	}
+	
+	.description {
+		margin: -3px 0 0 0;
+		padding: 0px 0 20px 40px;
+		color: #999;
+		font-family: 'Georgia', serif;
+		font-size: 14px;
+		font-style: italic;
+		letter-spacing: 2px;
+		}
+
+
+
+/* THE MENU */
+
+#menubar {
+	width: 960px;
+	height: 25px;
+	margin: 0 auto;
+	background: #000033;
+	}
+
+#menunav {
+	margin: 0;
+	padding: 1px 0 0 0;
+	float: right;
+	font-size: 19px;
+	}
+
+	#menunav a  {
+		margin: 0 1px 0 0;
+		color: #aaa;
+		text-decoration: none;
+		background: #000033;
+		-moz-border-radius: 10px;
+		-khtml-border-radius: 10px;	
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		}
+
+		#menunav a:hover {
+			color: #fff;
+			background: #000033;
+			} 
+		
+		.prev {
+			padding: 0 2px 0 0;
+			}
+		
+		.next {
+			padding: 0 0 0 2px;
+			}
+  
+#menu {
+	color: #999;
+	font-size: 12px;
+        font-family: 'Georgia', serif;
+	
+	}
+
+	#menu ul {
+		margin: 0;		
+		padding: 0;
+		list-style: none;	
+		}
+
+	#menu li {
+ 		margin: 0;
+ 		padding: 0;
+ 		float: left;
+		}
+
+	#menu li a {
+		height: 25px;
+		padding: 0 5px 0 5px;
+		display: block;
+		float: left;
+		color: #aaa;
+		line-height: 25px;
+		text-decoration: none;
+		border-width: 0 1px 0 0;
+		border-style: solid;
+		border-color: #aaa;
+		}
+
+	#menu li a:hover {
+		color: #fff;
+		background: #ccccff;
+		}
+
+
+
+/* THE COMIC */
+	
+#comic {
+	padding: 15px 0 15px 0;
+	text-align: center;
+	background: #fff;
+	}
+
+
+
+/* THE PAGE WRAPPER */
+
+#page {
+	width: 960px;
+	margin: 0px auto;
+	text-align: left;
+	background: #fff;
+	}
+
+
+
+/* THE FOOTER */
+
+#footer {
+	width: 960px;
+	margin: 0px auto;
+	padding: 20px 0;	
+	color: #999;
+	text-align: center;
+	background: #000;
+	}
+
+	#footer a {
+		color: #fff;
+		text-decoration: none;
+		border: none;
+		}
+
+	#footer a:hover {
+		border-bottom: 1px dotted #fff;
+		}
+
+
+
+/* NAVIGATION */
+
+.nav {
+	margin: 0;
+	padding: 3px 0 0 0;
+	float: right;
+	color: #999;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	}
+
+.nav-single {
+	padding: 10px 0 0 0;
+	color: #ccccff;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	}
+
+.pagenav {
+	padding: 40px 20px 20px 20px;
+	color: #ccccff;
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	clear: both;
+	}
+
+	.pagenav-left {
+		float: left;
+		}
+
+	.pagenav-right {
+		float: right;
+		}
+
+.nav a, .pagenav a, .nav-single a {
+	padding: 0 2px;
+	color: #333;
+	text-decoration: none;
+	border: none;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;	
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	}
+
+	.nav a:hover, .pagenav a:hover, .nav-single a:hover {
+		color: #111;
+		background-color: #ccccff;
+		}
+
+
+
+/* CONTENT AREA */
+
+#column-wrapper {
+	width:760px;
+	float: left;
+	overflow: hidden;
+	}
+
+#column {
+	width: 560px;
+	padding: 5px 0 20px 0;
+	float: left;
+	overflow: hidden;
+	}
+
+.post-frontpage {
+	padding: 0 20px 0 20px;
+	text-align: justify;
+	}
+	
+.post, .content {
+	padding: 0 20px 0 20px;
+	text-align: justify;
+	}
+
+	.comicdate {
+		color: #777;
+		font-family: 'Georgia', serif;
+		font-size: 15px;
+		font-weight: bold;
+		}
+	
+	.postdate {
+		color: #777;
+		font-family: 'Georgia', serif;
+		font-size: 11px;
+		}
+
+.postmeta {
+	margin: 0 0 20px 0;
+	color: #777; 	
+ 	font-family: 'Georgia', serif;
+ 	text-align: right;
+ 	}
+
+	.postmeta ul {
+		display: inline;
+		list-style-type: none;
+		list-style-image: none;
+		}
+ 	
+.postmeta-single {
+	padding: 10px;
+ 	color: #777;
+	font-size: 11px;
+	text-align: left;
+	background: #eee;
+	border: 1px solid #999;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	}
+	
+	.postmeta-single a {
+		color: #000;
+		}	
+	
+	.postmetatags {
+		font-family: 'Georgia', serif;
+		font-size: 12px;
+		}
+
+.postmeta a, .postmeta-single a {
+	color: #333;
+	text-decoration: none;
+	border-bottom: 1px dotted #777;
+	}
+	
+	.postmeta a:hover, .postmeta-single a:hover {
+		color: #777;
+		border-bottom: 1px solid #777;
+		}
+
+.postmeta-comments {
+	font-size: 16px;
+	}
+	
+	.balloon {
+		color: #ccc;
+		font-family: 'Webdings', fantasy;
+		font-size: 18px;
+		}
+
+img {
+       padding: 0px;
+       margin: 3px;
+       border: 0px;
+   }
+
+
+
+/* THE BLOG HEADER */
+
+#blogheader {
+	margin: 0;
+	padding: 10px 0 0 20px;
+	color: #777;
+	font-family: 'Georgia', serif;
+	font-size: 24px;
+	letter-spacing: -1px;
+	}
+
+
+
+/* COMMENTS */
+
+.comment-wrapper {
+	padding: 0 20px;
+	}
+	
+	.comment-wrapper h3 {
+		margin: 0;
+		padding: 20px 0 0 0;
+		color: #777;
+		font-family: 'Georgia', serif;
+		font-weight: normal;
+		font-size: 24px;
+		letter-spacing: -1px;
+		clear: both;
+		}
+
+		.bigballoon {
+			color: #ccc;
+			font-family: 'Webdings', fantasy;
+			font-size: 28px;
+			}
+
+	.comment-wrapper a {
+		text-decoration: none;
+		border-bottom: 1px dotted #777;
+		}
+		
+		.comment-wrapper a:hover {
+			color: #777;			
+			border-bottom: 1px solid #777;
+			}
+
+	.comment-wrapper p {
+		margin: 10px 0 0 0;
+		}
+
+.avatar {
+	margin:0 10px 10px 0;
+	padding:5px;
+	float:left;
+	border: 1px solid #777;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;	
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+
+#comment, #author, #email, #url {
+	padding: 2px;
+	color: #000;
+	font-family: 'Verdana', sans-serif;
+	font-size: 12px;
+	border: 1px solid #999;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;	
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	}
+
+	#comment:hover, #author:hover, #email:hover, #url:hover {
+		background: #eee;
+		}
+	
+	#comment {
+		width: 100%;
+		}
+
+	#author, #email, #url {
+		width: 200px;
+		}
+
+#submit {
+	margin: 0 0 20px 0;
+	padding: 0 5px;
+	float: right;
+	color: #fff;
+	background: #888;
+	font-family: 'Verdana', sans-serif;
+	font-size: 12px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #555;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	}
+
+	#submit:hover {
+
+		cursor:pointer;
+		background: #222;
+		}
+
+ol.commentlist {
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	list-style: none;
+	}
+
+	.commentlist li {
+		padding: 20px 0 0 0;
+		clear: both;
+		}
+
+
+
+/* ARCHIVE */  
+
+.comicarchiveframe {
+	margin: 20px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	border-width: 1px;
+	border-style: solid ;
+	border-color: #ccc #aaa #555 #777;
+	}
+ 
+	.comicarchiveframe:hover {
+		filter: alpha(opacity=50);
+		-moz-opacity: 0.50;
+		opacity: 0.50;
+		}
+
+.comicarchiveframe {
+	margin: 20px 0 10px 0;
+	padding: 5px 10px 5px 10px;
+	border: 1px solid #000;
+	}
+ 
+	.comicarchiveframe h3 {
+		margin: 0;
+		}
+		
+	.comicarchiveframe small {
+		display: block;
+		}
+		
+	.comicarchiveframe:hover {
+		filter: alpha(opacity=50);
+		-moz-opacity: 0.50;
+		opacity: 0.50;
+		}
+
+
+
+/* SIDEBARS */
+
+#sidebar-left {
+	width: 200px;
+	padding: 10px 0;
+	float: left;
+	font-size: 11px;
+	overflow: hidden;
+	}
+
+#sidebar-right {
+	width: 200px;
+	padding: 5px 0;
+	float: left;
+	font-size: 11px;
+	overflow: hidden;
+	}
+
+.sidebar h2, .sidebar h2 a {
+	color: #999;
+	font-family: 'Georgia', serif;
+	font-weight: normal;
+	font-size: 18px;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+
+	.sidebar ul li {
+		margin: 0 0 10px 10px;
+		padding: 0;
+		}
+
+		.sidebar ul li ul li {
+			margin: 0 0 0 10px;
+			padding: 0;
+			}
+
+			.sidebar ul li ul li a {
+				display: block;
+				color: #333;
+				text-decoration: none;
+				border-bottom: 1px dotted #777;
+				}
+
+				.sidebar ul li ul li a:hover {
+					color: #333;
+					background: #ccccff;
+					border-bottom: 1px solid #777;
+					}
+
+
+
+/* CALENDAR */
+
+#wp-calendar {
+	width: 165px;
+	margin: 0 0 0 5px;
+	}
+
+#wp-calendar th {
+	color: #999;
+	font-size: 10px;
+	font-weight: normal;
+	text-align: center;
+	}
+
+#wp-calendar caption {
+	color: #555;
+	font-family: 'Georgia', sans-serif;
+	font-size: 18px;
+	letter-spacing: -1px;
+	}
+
+#wp-calendar td {
+	min-width: 20px;
+	padding: 0;
+	text-align: center;
+	border: 1px solid #999;
+	}
+
+#wp-calendar a {
+	color: #333;
+	display: block;
+	text-decoration: none;
+	background: #ddd;	
+	}
+	
+	#wp-calendar a:hover {
+		color: #333;
+		background: #bbb;
+		}
+
+
+
+/* SEARCH */
+
+#s {
+	width: 140px;
+	margin: 0;
+	padding: 2px;
+	color: #000;
+	font-family: 'Verdana', sans-serif;
+	font-size: 12px;
+	border: 1px solid #999;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;	
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	}
+
+	#s:hover {
+		background: #eee;
+		}
+
+#searchsubmit {
+	margin: 0;
+	padding: 0 0 0 2px;
+	color: #fff;
+	font-family: 'Verdana', sans-serif;
+	font-size: 12px;
+	background: #888;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #555;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	}
+
+	#searchsubmit:hover {
+		cursor:pointer;
+		background: #222;
+		}
+
+
+
+/* GALLERY */
+
+.attachment {
+	width: 520px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+	.attachment img {
+		margin: 0 0 10px 0;
+		border: 1px solid #000;
+		}
+		
+	.attachment p {
+		margin: 0 9px 10px 9px;
+		padding: 10px;
+		border: 1px solid #999;
+		-moz-border-radius: 10px;
+		-khtml-border-radius: 10px;	
+		-webkit-border-radius: 10px;
+		border-radius: 10px;
+		}
+
+.imagenav-wrap {
+	width: 502px;
+	height: 77px;
+	margin: 0 auto;
+	}
+
+.imagenav {
+	width: 77px;
+	height: 77px;
+	float: left;	
+	}
+
+.imagenav-center {
+	width: 316px;
+	height: 65px;
+	margin: 0 10px;
+	padding: 10px 5px 0 5px;
+	float: left;
+	color: #bbb;
+	text-align: center;
+	border: 1px solid #999;
+	overflow: hidden;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;	
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	}
+	
+	.imagenav-center a {
+		text-decoration: none;
+		color: #777;
+		border-bottom: 1px dotted #777;
+		}
+		
+		.imagenav-center a:hover {
+			color: #777;
+			border-bottom: 1px solid #777;
+			}
+
+.imagetitle {
+	color: #333;
+	font-size: 18px;
+	}
+
+.imagenav-bg {
+	width:75px;
+	height:75px;
+	position: absolute;
+	z-index: 0;
+	background: #eee;
+	border: 1px solid #000;
+	}
+
+
+
+	.imagenav-bg img {
+		width:75px;
+		height:75px;
+		}
+
+.imagenav-arrow {
+
+	width:75px;
+	height:75px;
+	position: absolute;
+	z-index: 1;
+	color: #fff;
+	font-size: 50px;
+	line-height:75px;
+	text-align: center;
+	border: 1px solid #000;
+	float: left;
+	}
+
+.imagenav-link {
+	width:75px;
+	height:75px;
+	position: absolute;
+	z-index: 2;
+	border: 1px solid #000;
+	float: left;
+	}
+
+	.imagenav-link img {
+		width:75px;
+		height:75px;
+		filter: alpha(opacity=50);
+		-moz-opacity: 0.50;
+		opacity: 0.50;
+		}
+
+		.imagenav-link img:hover {
+			filter: alpha(opacity=0);
+			-moz-opacity: 0.00;
+			opacity: 0.00;
+			}
+
+.aligncenter {
+	margin: 0 auto;
+	display: block;
+	}
+
+.alignright {
+	margin: 10px 0 10px 10px;
+	display: inline;
+	float: right;
+	}
+
+.alignleft {
+	margin: 10px 10px 10px 0;
+	display: inline;
+	float: left
+	}
+
+
+
+/* CLEAR FLOATS */
+
+.clear {
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+	}
