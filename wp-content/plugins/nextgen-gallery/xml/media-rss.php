@@ -5,8 +5,8 @@
 		<title>The Glass Urchin</title>
 		<description>Love, life, and being lost</description>
 		<link><![CDATA[http://glassurchin.nerdcomics.com]]></link>
-		<atom:link rel='self' href='http://glassurchin.nerdcomics.com/wp-content/plugins/nextgen-gallery/xml/media-rss.php' type='application/rss+xml' />
-		<atom:link rel='next' href='http://glassurchin.nerdcomics.com/wp-content/plugins/nextgen-gallery/xml/media-rss.php?show=10&amp;page=1&amp;mode=last_pictures' />
+		<atom:link rel='self' href='/glass-urchin/wp-content/plugins/nextgen-gallery/xml/media-rss.php' type='application/rss+xml' />
+		<atom:link rel='next' href='/glass-urchin/wp-content/plugins/nextgen-gallery/xml/media-rss.php?show=10&amp;page=1&amp;mode=last_pictures' />
 		<item>
 			<title><![CDATA[covermilkshakes-highways]]></title>
 			<description><![CDATA[The cover of the first compilation of comics from The Glass Urchin, Milkshakes & Highways.  It features Ami and Mike in the foreground and ten other characters in the background.  The location is based on a real bar located in Jersey City.]]></description>
